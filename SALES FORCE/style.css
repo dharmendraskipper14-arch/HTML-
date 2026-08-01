@@ -1,0 +1,217 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(134, 174, 22);
+    
+}
+#header{
+    height: 13vh;
+    width: 100%;
+    background-color:white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+    
+}
+#uselessheader{
+    height: 13vh;
+    width: 100%;
+    background-color:aqua;
+    
+}
+
+#page1{
+  height: 87vh;
+  width: 100%;
+  background-color: bisque;
+}
+#strip{
+    background-color: blue;
+    height: 10%;
+    width: 100%;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-style: oblique;
+}
+#strip u{
+    font-weight: lighter;
+    margin-left: 15px;
+    color: white;
+}
+#content{
+    width: 100%;
+    height: 76%;
+    background-color:white;
+    display: flex;
+}
+#heading{
+    width: 100%;
+    height: 16%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(13, 37, 215);
+}
+heading h1{
+    font-weight: 600;
+
+}
+#box1{
+height: 95%;
+  width: 48%;
+  margin:10px;
+  background-color:white;
+  
+}
+ #box1 h1{
+    
+    margin: 30px 10px;
+    font-weight: 600;
+    color: blue;
+    font-size: 50px;
+}
+#box1 p{
+    font-size: x-large;
+    font-weight: 60;
+    
+    margin: 30px 10px;
+}
+#button{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#button1{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(14, 170, 222);
+    margin-right: 30px;
+    margin-top: 45px;
+    border-radius: 5px;
+
+}
+#button1:hover{
+    background-color: blue;
+}
+#button2{
+    padding: 10px 20px;
+    color: rgb(8, 203, 105);
+    border: 1px solid rgb(18, 179, 232);
+    margin-top: 45px;
+    border-radius: 5px;
+    
+}
+#button2:hover{
+    background-color: rgb(15, 158, 202);
+    color: rgb(14, 219, 14);
+    border-color: rgb(15,158,202);
+}
+#box2{
+    height: 95%;
+    width: 48%;
+    margin:10px;
+    background-color: white;
+    object-fit: cover;
+    
+}
+#box2 img{
+    
+    height: 100%
+    position: relative;
+    width: 100%;
+
+}
+#box2 h1{
+    
+    
+    font-weight: 600;
+    color: rgb(235, 130, 3);
+    font-size: 50px;
+}
+#box2 p{
+    font-size: x-large;
+    font-weight: 60;
+    
+
+}
+
+#page2{
+  height: 87vh;
+  width: 100%;
+  background-color: white;
+}
+
+
+.text{
+    font-style: oblique;
+    
+    color: rgba(4, 20, 91, 0.84);
+    
+}
+
+#contacts {
+    color: lightslategrey;
+    font-weight:lighter;
+    font-style: oblique;
+    font-display: fallback;
+    
+}
+.text:hover{
+    color: lightblue;
+}
+#logo{
+    height: 70%;
+    
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.icon{
+    
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+.icon:hover{
+    background-color: lightblue;
+    
+    
+}
+#login{
+    border-radius: 50px;
+    
+}
+#login:hover{
+    
+    background-color:lightblue;
+}
+
+#try{
+    
+    background-color: rgb(13, 164, 114);
+    padding: 10px 20px;
+    color: white;
+}
+#try:hover{
+    background-color: bisque;
+}
